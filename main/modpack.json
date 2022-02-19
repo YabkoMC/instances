@@ -1,0 +1,231 @@
+{
+  "name" : "main",
+  "title" : "Яблучне Королівство",
+  "gameVersion" : "1.18.1",
+  "features" : [
+    {
+      "properties" : {
+        "name" : "LazyDFU",
+        "description" : "Оптимізація швидкості старту клієнта",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/lazydfu-0.1.2.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Dynamic FPS",
+        "description" : "Оптимізація використання ресурсів комп'ютера, за рахунок динамічного FPS",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/dynamic-fps-2.1.0.jar",
+          "config/dynamicfps.toml"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Dynamic Sound Filters",
+        "description" : "Динамічні звуки",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/DynamicSoundFilters-1.3.0+1.18.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Presence Footsteps",
+        "description" : "Змінені звуки хотьби по різним поверхням",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/PresenceFootsteps-1.4.0.jar",
+          "config/presencefootsteps/*"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "AntiGhost",
+        "description" : "Мод для примусової синхронізації рендеру блоків навколо",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/antighost-1.18-fabric0.43.1-1.1.4.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "ShulkerBoxTooltip",
+        "description" : "Підказки вмісту шалкерів і рюкзаків",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/shulkerboxtooltip-3.0.5+1.18.jar",
+          "config/shulkerboxtooltip.json5"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Light Overlay",
+        "description" : "Підказки про можливість спавну мобів на блоках",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/light-overlay-6.0.4.jar",
+          "config/lightoverlay.properties"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Clear Skies",
+        "description" : "Прибирає туман на горизонті і робить небо більш синішим",
+        "recommendation" : "avoid",
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "mods/clear-skies-fabric-mc118-2.0.88.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "LambDynamicLights",
+        "description" : "Динамічне освітлення",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/lambdynamiclights-2.1.0+1.17.jar",
+          "config/lambdynlights.toml"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "LambdaBetterGrass",
+        "description" : "Покращена трава",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/lambdabettergrass-1.2.2+1.17.jar",
+          "config/lambdabettergrass.toml"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Advancements Enlarger",
+        "description" : "Збільшує екран ачівок",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/advancements-enlarger-0.2.4.jar"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Compliance 64x (ресурспак)",
+        "description" : "Ресурспак Compliance 64x Beta 2 на основі Faithful 32x",
+        "recommendation" : "starred",
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/Compliance+64x+Beta+2.zip"
+        ],
+        "exclude" : [ ]
+      }
+    },
+    {
+      "properties" : {
+        "name" : "Faithful 32x (ресурспак)",
+        "description" : "Ресурспак Faithful 32x",
+        "recommendation" : "starred",
+        "selected" : false
+      },
+      "files" : {
+        "include" : [
+          "resourcepacks/Faithful-1.18.zip"
+        ],
+        "exclude" : [ ]
+      }
+    }
+  ],
+  "userFiles" : {
+    "include" : [
+      "options.txt",
+      "optionsshaders.txt",
+      "patchouli_data.json",
+      "resourcepacks/",
+      "config/fabric/indigo-renderer.properties",
+      "config/presencefootsteps/userconfig.json",
+      "config/continuity.json",
+      "config/crowdin.txt",
+      "config/indium-renderer.properties",
+      "config/lambdabettergrass.toml",
+      "config/lambdynlights.toml",
+      "config/lightoverlay.properties",
+      "config/modmenu.json",
+      "config/notenoughcrashes.json",
+      "config/shulkerboxtooltip.json5",
+      "config/sodium-mixins.properties",
+      "config/sodium-options.json",
+      "config/xaerominimap.txt",
+      "config/xaerominimap_entities.json",
+      "config/xaeropatreon.txt",
+      "config/xaeroworldmap.txt"
+    ],
+    "exclude" : [ ]
+  },
+  "launch" : {
+    "flags" : [
+      "-javaagent:mods/injector.jar=https://auth.yabko.org/",
+      "-Dauthlibinjector.mojangNamespace=disabled",
+      "-Dauthlibinjector.legacySkinPolyfill=disabled",
+      "-Dauthlibinjector.disableHttpd",
+      "-Dfml.ignoreInvalidMinecraftCertificates=true",
+      "-Dlog4j.configurationFile=config/log4j2.xml"
+    ]
+  }
+}
