@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:false
+enableVsync:true
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -14,7 +14,7 @@ reducedDebugInfo:false
 showSubtitles:false
 touchscreen:false
 fullscreen:false
-bobView:false
+bobView:true
 toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:true
@@ -23,20 +23,20 @@ mouseSensitivity:0.5
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
-gamma:1.0
-renderDistance:12
-simulationDistance:14
+gamma:0.5
+renderDistance:9
+simulationDistance:10
 entityDistanceScaling:1.0
 guiScale:2
 particles:0
-maxFps:145
+maxFps:65
 difficulty:2
-graphicsMode:1
+graphicsMode:0
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:3
-renderClouds:true
-resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Compliance+64x+Beta+2.zip"]
+renderClouds:fast
+resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Faithful-1.18.zip"]
 incompatibleResourcePacks:["lambdabettergrass/default"]
 lastServer:
 lang:uk_ua
@@ -57,7 +57,7 @@ chatDelay:0.0
 chatHeightUnfocused:0.44366195797920227
 chatScale:1.0
 chatWidth:1.0
-mipmapLevels:4
+mipmapLevels:0
 useNativeTransport:true
 mainHand:right
 attackIndicator:1
@@ -116,6 +116,9 @@ key_key.extraalchemy.toggle_extra_inv_rings:key.keyboard.y
 key_key.inmis.open_backpack:key.keyboard.b
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
 key_key.logical_zoom.zoom:key.keyboard.c
+key_nicephore.keybinds.copy:key.keyboard.unknown
+key_nicephore.keybinds.screenshots.gui:key.keyboard.h
+key_nicephore.keybinds.gallery.gui:key.keyboard.j
 key_presencefootsteps.settings.key:key.keyboard.f10
 key_key.trinketshulkerboxes.open.desc:key.keyboard.b
 key_key.waila.config:key.keyboard.keypad.0

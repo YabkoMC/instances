@@ -190,6 +190,21 @@
         ],
         "exclude" : [ ]
       }
+    },
+    {
+      "properties" : {
+        "name" : "Nicephore",
+        "description" : "Мод покращує створення скріншотів",
+        "recommendation" : "starred",
+        "selected" : true
+      },
+      "files" : {
+        "include" : [
+          "mods/nicephore-fabric-1.18.x-1.2.1.jar",
+          "config/nicephore.json"
+        ],
+        "exclude" : [ ]
+      }
     }
   ],
   "userFiles" : {
@@ -207,6 +222,7 @@
       "config/lambdynlights.toml",
       "config/lightoverlay.properties",
       "config/modmenu.json",
+      "config/nicephore.json",
       "config/notenoughcrashes.json",
       "config/shulkerboxtooltip.json5",
       "config/sodium-mixins.properties",
