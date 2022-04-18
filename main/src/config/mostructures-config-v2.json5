@@ -12,7 +12,7 @@
   //  // Salt is a special field that gives structures unique spawning positions. DO NOT TOUCH IT, ONLY ADVANCED TROUBLESHOOTING!
   "structureConfigEntries": {
     "villager_tower": {
-      "activated": true,
+      "activated": false,
       "seperation": 16,
       "spacing": 34,
       "salt": 550292492
@@ -24,7 +24,7 @@
       "salt": 29502322
     },
     "air_balloon": {
-      "activated": true,
+      "activated": false,
       "seperation": 1,
       "spacing": 6,
       "salt": 29483148
@@ -48,7 +48,7 @@
       "salt": 66996840
     },
     "volcanic_vent": {
-      "activated": true,
+      "activated": false,
       "seperation": 4,
       "spacing": 8,
       "salt": 84981094
@@ -61,8 +61,8 @@
     },
     "pirate_ship": {
       "activated": true,
-      "seperation": 16,
-      "spacing": 40,
+      "seperation": 30,
+      "spacing": 50,
       "salt": 583957395
     },
     "tavern": {
@@ -96,7 +96,7 @@
       "salt": 964058305
     },
     "villager_market": {
-      "activated": true,
+      "activated": false,
       "seperation": 16,
       "spacing": 36,
       "salt": 784939542

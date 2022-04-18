@@ -36,7 +36,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:3
 renderClouds:fast
-resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Faithful-1.18.zip"]
+resourcePacks:["vanilla","Fabric Mods","lambdabettergrass/default","continuity/default","continuity/glass_pane_culling_fix","file/Compliance-32x-Java-Beta-20.zip"]
 incompatibleResourcePacks:["lambdabettergrass/default"]
 lastServer:
 lang:uk_ua
@@ -115,7 +115,7 @@ key_key.extraalchemy.potion_bag_mode:key.keyboard.k
 key_key.extraalchemy.toggle_extra_inv_rings:key.keyboard.y
 key_key.inmis.open_backpack:key.keyboard.b
 key_key.lightoverlay.enable_overlay:key.keyboard.f7
-key_key.logical_zoom.zoom:key.keyboard.c
+key_key.logical_zoom.zoom:key.keyboard.z
 key_nicephore.keybinds.copy:key.keyboard.unknown
 key_nicephore.keybinds.screenshots.gui:key.keyboard.h
 key_nicephore.keybinds.gallery.gui:key.keyboard.j
@@ -133,11 +133,11 @@ key_gui.xaero_toggle_grid:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map_waypoints:key.keyboard.unknown
 key_gui.xaero_toggle_map:key.keyboard.unknown
-key_gui.xaero_enlarge_map:key.keyboard.z
+key_gui.xaero_enlarge_map:key.keyboard.x
 key_gui.xaero_waypoints_key:key.keyboard.u
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
-key_gui.xaero_new_waypoint:key.keyboard.x
+key_gui.xaero_new_waypoint:key.keyboard.c
 key_gui.xaero_display_all_sets:key.keyboard.unknown
 key_gui.xaero_toggle_light_overlay:key.keyboard.unknown
 key_gui.xaero_toggle_entity_radar:key.keyboard.unknown
