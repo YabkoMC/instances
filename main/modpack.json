@@ -1,7 +1,7 @@
 {
   "name" : "main",
-  "title" : "Яблучне Королівство",
-  "gameVersion" : "1.18.1",
+  "title" : "Яблучне Королівство 1.19.2",
+  "gameVersion" : "1.19.2",
   "features" : [ ],
   "userFiles" : {
     "include" : [
