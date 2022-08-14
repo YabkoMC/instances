@@ -1,0 +1,25 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: build main modpack
+  image: modpack-builder:latest
+  volumes:
+  - name: yabko_root
+    path: /tmp/yabko_root
+  commands:
+  - export version=$$(date +%s)
+  - rm -rf /tmp/yabko_root/instances/{libraries,objects,main.json}
+  - java -jar /app/modpack-builder.jar --version "$${version}" --input . --output /tmp/yabko_root/instances/ --manifest-dest /tmp/yabko_root/instances/main.json
+  - jq  ".packages[0].version = \"$${version}\"" /tmp/yabko_root/instances/packages.json > tmp.$$.json && mv tmp.$$.json /tmp/yabko_root/instances/packages.json
+
+volumes:
+- name: yabko_root
+  host:
+    path: /data/yabko_root/www
+
+trigger:
+  branch:
+  - master
